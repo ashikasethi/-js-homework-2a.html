@@ -1,0 +1,22 @@
+<script>
+function score(homeScore, awayScore) {
+  if (homeScore > awayScore) {
+      return ("The home team won.");
+    }
+  else if (homeScore < awayScore) {
+      return ("The away team won.");
+  }
+  else if (homeScore == awayScore) {
+      return ("The game tied.");
+  }
+}
+
+var homeScore = 9;
+var awayScore = 25;
+console.log(score(homeScore, awayScore));
+
+var homeScore = 100;
+var awayScore = 25;
+console.log(score(homeScore, awayScore));
+
+</script>
