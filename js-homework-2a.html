@@ -1,12 +1,20 @@
 <script>
 var name = prompt("What is your name?");
-  console.log("name");
+  console.log(name);
 var school = "University of Texas";
   console.log(school.length);
   console.log('University of Texas'.toLowerCase());
 
+  console.log(hello(name));
 
-function hello(parameter1, parameter2, parameter3) {
+var name2 = prompt("What is your name?");
+  console.log(hello(name2));
+
+var name3 = prompt("What is your name?");
+  console.log(hello(name3));
+
+function hello(arg) {
     //code to be executed
+    return ("Hello, " + arg);
 }
 </script>
