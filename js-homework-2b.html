@@ -10,13 +10,34 @@ function score(homeScore, awayScore) {
       return ("The game tied.");
   }
 }
-
 var homeScore = 9;
 var awayScore = 25;
 console.log(score(homeScore, awayScore));
-
 var homeScore = 100;
 var awayScore = 25;
 console.log(score(homeScore, awayScore));
 
+var name = prompt("What is your name?");
+  arg = name.toLowerCase();
+  console.log(hello(arg));
+
+var name2 = prompt("What is your name?");
+  arg2 = name2.toLowerCase();
+  console.log(hello(arg2));
+
+var name3 = prompt("What is your name?");
+  arg3 = name3.toLowerCase();
+  console.log(hello(arg3));
+
+function hello(arg) {
+    if (arg == "ashika" || "princess consuela bananahammock") {
+      return ("Hello, group member.");
+    }
+    else if (arg == "andrew") {
+      return ("Hello, teacher.");
+    }
+    else {
+      return ("Hello!");
+    }
+  }
 </script>
